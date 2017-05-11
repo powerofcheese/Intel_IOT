@@ -1,0 +1,17 @@
+{
+  "type": "hope_service",
+  "name": "mpu6050",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": []
+    },
+    "out": {
+      "ports": []
+    },
+    "name": "mpu6050",
+    "id": "SPEC__7e4d1200-6ea8-11e6-82a0-eb698a94160d"
+  },
+  "id": "HOPE_SERVICE_7e5612b0_6ea8_11e6_a85a_efb36b26669a",
+  "thing": "HOPE_THING_bc2730c0_69de_11e6_8014_2b175318776f"
+}

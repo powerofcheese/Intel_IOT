@@ -1,0 +1,32 @@
+{
+  "type": "hope_service",
+  "name": "color_cycle",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": [
+        {
+          "name": "in1",
+          "type": "string"
+        },
+        {
+          "name": "in2",
+          "type": "string",
+          "buffered": true
+        }
+      ]
+    },
+    "out": {
+      "ports": [
+        {
+          "name": "out1",
+          "type": "string"
+        }
+      ]
+    },
+    "name": "color_cycle",
+    "id": "SPEC__d1b81f90-70c2-11e6-ab82-cf252365d5fc"
+  },
+  "id": "HOPE_SERVICE_d22698d0_70c2_11e6_9fb3_ab49876e24d1",
+  "thing": "HOPE_THING_7ce99cf0_5fab_11e6_a659_3f54aeb6b04d"
+}

@@ -1,0 +1,4 @@
+shared.bluetooth.kill();
+
+done();
+

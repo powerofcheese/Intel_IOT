@@ -1,0 +1,17 @@
+{
+  "type": "hope_service",
+  "name": "onsteptest",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": []
+    },
+    "out": {
+      "ports": []
+    },
+    "name": "onsteptest",
+    "id": "SPEC__553298c0-a03c-11e6-9b50-a7f368ec7427"
+  },
+  "id": "HOPE_SERVICE_c9dac190_9dbf_11e6_b4dd_77a46103a0d4",
+  "thing": "HOPE_THING_7ce99cf0_5fab_11e6_a659_3f54aeb6b04d"
+}

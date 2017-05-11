@@ -1,0 +1,22 @@
+{
+  "type": "hope_service",
+  "name": "effect",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": [
+        {
+          "name": "in1",
+          "type": "string"
+        }
+      ]
+    },
+    "out": {
+      "ports": []
+    },
+    "name": "effect",
+    "id": "__HOPE_SPEC__1118f570_8ba2_11e6_b837_27020ee03172"
+  },
+  "id": "HOPE_SERVICE_1c237c10_8ada_11e6_b6ec_0d69947535d7",
+  "thing": "HOPE_THING_7ce99cf0_5fab_11e6_a659_3f54aeb6b04d"
+}

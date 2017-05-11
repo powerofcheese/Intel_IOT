@@ -1,0 +1,17 @@
+{
+  "type": "hope_service",
+  "name": "lsm",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": []
+    },
+    "out": {
+      "ports": []
+    },
+    "name": "lsm",
+    "id": "__HOPE_SPEC__112d67d0_8ba2_11e6_b837_27020ee03172"
+  },
+  "id": "HOPE_SERVICE_3b2451a0_8ad2_11e6_b756_2177469cbcd4",
+  "thing": "HOPE_THING_bc2730c0_69de_11e6_8014_2b175318776f"
+}

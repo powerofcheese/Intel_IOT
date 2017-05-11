@@ -1,0 +1,22 @@
+{
+  "type": "hope_service",
+  "name": "shining",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": [
+        {
+          "name": "in1",
+          "type": "string"
+        }
+      ]
+    },
+    "out": {
+      "ports": []
+    },
+    "name": "shining",
+    "id": "SPEC__3906b450-6fa0-11e6-9b2a-39303cc88124"
+  },
+  "id": "HOPE_SERVICE_39264a40_6fa0_11e6_ad37_0d141f186fae",
+  "thing": "HOPE_THING_7ce99cf0_5fab_11e6_a659_3f54aeb6b04d"
+}

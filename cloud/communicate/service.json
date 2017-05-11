@@ -1,0 +1,30 @@
+{
+  "type": "hope_service",
+  "name": "communicate",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": [
+        {
+          "name": "step",
+          "type": "string"
+        },
+        {
+          "name": "color",
+          "type": "string"
+        },
+        {
+          "name": "scenes",
+          "type": "string"
+        }
+      ]
+    },
+    "out": {
+      "ports": []
+    },
+    "name": "communicate",
+    "id": "__HOPE_SPEC__1129e560_8ba2_11e6_b837_27020ee03172"
+  },
+  "id": "HOPE_SERVICE_b5d7fcb0_77f6_11e6_97fa_2997f8548b79",
+  "thing": "HOPE_THING_8a63b830_77f6_11e6_97fa_2997f8548b79"
+}

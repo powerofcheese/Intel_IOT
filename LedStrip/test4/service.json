@@ -1,0 +1,42 @@
+{
+  "type": "hope_service",
+  "name": "water_column",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": [
+        {
+          "name": "r",
+          "type": "string",
+          "default": "255"
+        },
+        {
+          "name": "g",
+          "type": "string",
+          "default": "0"
+        },
+        {
+          "name": "b",
+          "type": "string",
+          "default": "255"
+        },
+        {
+          "name": "in1",
+          "type": "string"
+        }
+      ]
+    },
+    "out": {
+      "ports": [
+        {
+          "name": "out1",
+          "type": "string"
+        }
+      ]
+    },
+    "name": "water_column",
+    "id": "__HOPE_SPEC__1124dc50_8ba2_11e6_b837_27020ee03172"
+  },
+  "id": "HOPE_SERVICE_6ac97e30_6057_11e6_9625_ad55bf6a1e98",
+  "thing": "HOPE_THING_7ce99cf0_5fab_11e6_a659_3f54aeb6b04d"
+}

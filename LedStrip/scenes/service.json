@@ -1,0 +1,22 @@
+{
+  "type": "hope_service",
+  "name": "scenes",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": [
+        {
+          "name": "in1",
+          "type": "string"
+        }
+      ]
+    },
+    "out": {
+      "ports": []
+    },
+    "name": "scenes",
+    "id": "__HOPE_SPEC__11204870_8ba2_11e6_b837_27020ee03172"
+  },
+  "id": "HOPE_SERVICE_4651f000_857d_11e6_b0f8_231365fcc8d7",
+  "thing": "HOPE_THING_7ce99cf0_5fab_11e6_a659_3f54aeb6b04d"
+}

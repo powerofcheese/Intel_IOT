@@ -1,0 +1,22 @@
+{
+  "type": "hope_service",
+  "name": "ss",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": []
+    },
+    "out": {
+      "ports": [
+        {
+          "name": "out1",
+          "type": "string"
+        }
+      ]
+    },
+    "name": "ss",
+    "id": "SPEC__8cfc90c0-8f8a-11e6-b71f-f7da54282507"
+  },
+  "id": "HOPE_SERVICE_9475cdf0_8efc_11e6_b09b_bf22ddeda165",
+  "thing": "HOPE_THING_c7d79910_5fba_11e6_981a_ed66dd79d37a"
+}

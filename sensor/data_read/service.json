@@ -1,0 +1,30 @@
+{
+  "type": "hope_service",
+  "name": "data_read",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": []
+    },
+    "out": {
+      "ports": [
+        {
+          "name": "pitch",
+          "type": "string"
+        },
+        {
+          "name": "yaw",
+          "type": "string"
+        },
+        {
+          "name": "roll",
+          "type": "string"
+        }
+      ]
+    },
+    "name": "data_read",
+    "id": "SPEC__c74ac0c0-69de-11e6-a663-358fa443622f"
+  },
+  "id": "HOPE_SERVICE_c7431fa0_69de_11e6_8014_2b175318776f",
+  "thing": "HOPE_THING_bc2730c0_69de_11e6_8014_2b175318776f"
+}

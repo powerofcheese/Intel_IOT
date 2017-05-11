@@ -1,0 +1,16 @@
+{
+  "type": "hope_service",
+  "name": "FollowMusic",
+  "description": "",
+  "spec": {
+    "id": "SPEC__cdeed260-78a0-11e6-8b66-f10e0e806260",
+    "in": {
+      "ports": []
+    },
+    "out": {
+      "ports": []
+    }
+  },
+  "id": "HOPE_SERVICE_ce7874c0_78a0_11e6_8ef1_555c19574b77",
+  "thing": "HOPE_THING_7ce99cf0_5fab_11e6_a659_3f54aeb6b04d"
+}

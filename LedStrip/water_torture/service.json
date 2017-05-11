@@ -1,0 +1,17 @@
+{
+  "type": "hope_service",
+  "name": "water_torture",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": []
+    },
+    "out": {
+      "ports": []
+    },
+    "name": "water_torture",
+    "id": "SPEC__05bb07b0-701b-11e6-b167-d3735b59e6eb"
+  },
+  "id": "HOPE_SERVICE_05b6c1f0_701b_11e6_835e_a15a3d106a34",
+  "thing": "HOPE_THING_7ce99cf0_5fab_11e6_a659_3f54aeb6b04d"
+}

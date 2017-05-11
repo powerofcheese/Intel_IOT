@@ -1,0 +1,22 @@
+{
+  "type": "hope_service",
+  "name": "go",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": [
+        {
+          "name": "in1",
+          "type": "string"
+        }
+      ]
+    },
+    "out": {
+      "ports": []
+    },
+    "name": "go",
+    "id": "SPEC__836cc9d0-5fab-11e6-a99f-8736cbef5218"
+  },
+  "id": "HOPE_SERVICE_83fe3460_5fab_11e6_a659_3f54aeb6b04d",
+  "thing": "HOPE_THING_7ce99cf0_5fab_11e6_a659_3f54aeb6b04d"
+}

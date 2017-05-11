@@ -1,0 +1,63 @@
+var lib = require('jsupm_apa102');
+var ledstrip = new lib.APA102(15,0,true);
+
+function ColorCycle () {
+    
+	this.sequence = [];
+
+	return this;
+}
+
+/**
+ * shift a new color into the buffer.
+ */
+ColorCycle.prototype.scroll = function () {
+    var newcolor = this.sequence.shift();
+    this.sequence.push(newcolor);
+
+    //this.ledstrip.send();
+}
+
+/**
+ * main animation loop
+ */
+ColorCycle.prototype.color_cycle = function () {
+	//animation = requestAnimationFrame(this.color_cycle.bind(this));
+	var idx;
+
+	for (idx = 0;idx < this.sequence.length; ++idx) { //forwards...
+		ledstrip.setLed(idx,1,this.sequence[idx][0],this.sequence[idx][1],this.sequence[idx][2]);
+	}
+	ledstrip.pushState();
+    this.scroll();
+	
+    this.color_cycle();
+}
+
+/** 
+ * initialize color buffer
+ */
+ColorCycle.prototype.init = function() {
+	this.sequence =  [
+			[0, 25, 50],
+			[0, 50, 100],
+			[0, 75, 150],
+			[25, 75, 100],
+			[50, 100, 125],
+			[75, 125, 100],
+			[100, 125, 100],
+			[125, 125, 100],
+			[150, 125, 100],
+			[175, 125, 100],
+			[250, 125, 100],
+			[250, 100, 75],
+			[250, 75, 50],
+			[250, 50, 25],
+			[250, 0, 0]
+	];
+
+}
+
+var c = new ColorCycle();
+c.init();
+c.color_cycle();

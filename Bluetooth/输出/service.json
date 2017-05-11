@@ -1,0 +1,47 @@
+{
+  "type": "hope_service",
+  "name": "输出",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": [
+        {
+          "name": "in1",
+          "type": "string"
+        }
+      ]
+    },
+    "out": {
+      "ports": [
+        {
+          "name": "r",
+          "type": "string"
+        },
+        {
+          "name": "g",
+          "type": "string"
+        },
+        {
+          "name": "b",
+          "type": "string"
+        },
+        {
+          "name": "number",
+          "type": "string"
+        },
+        {
+          "name": "state",
+          "type": "string"
+        },
+        {
+          "name": "out1",
+          "type": "string"
+        }
+      ]
+    },
+    "name": "输出",
+    "id": "__HOPE_SPEC__11082c90_8ba2_11e6_b837_27020ee03172"
+  },
+  "id": "HOPE_SERVICE_ceaa6c90_5fba_11e6_981a_ed66dd79d37a",
+  "thing": "HOPE_THING_c7d79910_5fba_11e6_981a_ed66dd79d37a"
+}

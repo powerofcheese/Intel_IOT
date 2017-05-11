@@ -1,0 +1,42 @@
+{
+  "type": "hope_service",
+  "name": "custom",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": [
+        {
+          "name": "r",
+          "type": "string"
+        },
+        {
+          "name": "g",
+          "type": "string"
+        },
+        {
+          "name": "b",
+          "type": "string"
+        },
+        {
+          "name": "number",
+          "type": "string"
+        },
+        {
+          "name": "state",
+          "type": "string"
+        },
+        {
+          "name": "color",
+          "type": "string"
+        }
+      ]
+    },
+    "out": {
+      "ports": []
+    },
+    "name": "custom",
+    "id": "__HOPE_SPEC__11165d60_8ba2_11e6_b837_27020ee03172"
+  },
+  "id": "HOPE_SERVICE_67506180_6d93_11e6_b20a_67026f8b4142",
+  "thing": "HOPE_THING_7ce99cf0_5fab_11e6_a659_3f54aeb6b04d"
+}

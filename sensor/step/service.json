@@ -1,0 +1,35 @@
+{
+  "type": "hope_service",
+  "name": "step",
+  "description": "",
+  "spec": {
+    "in": {
+      "ports": [
+        {
+          "name": "in1",
+          "type": "string"
+        }
+      ]
+    },
+    "out": {
+      "ports": [
+        {
+          "name": "Stomp",
+          "type": "int"
+        },
+        {
+          "name": "Toe",
+          "type": "int"
+        },
+        {
+          "name": "Heel",
+          "type": "int"
+        }
+      ]
+    },
+    "name": "step",
+    "id": "SPEC__94d90e10-a7de-11e6-bb77-8d08455a343e"
+  },
+  "id": "HOPE_SERVICE_a560d850_a7dc_11e6_b353_696edac46eb0",
+  "thing": "HOPE_THING_bc2730c0_69de_11e6_8014_2b175318776f"
+}
